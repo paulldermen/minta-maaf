@@ -1,0 +1,60 @@
+<html>
+<head>
+<title> For You </title>
+<style>
+   body {
+    background-color: #7b8486;
+   }
+</style>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("Nah gitu dong WKWKWK")
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+        var audio = document; getElementById("bgMusic");
+        if (laudioPlaying) audio.play();
+        else audio.pause();
+        audioPlaying = laudioPlaying;
+}
+</script>
+
+</head>
+<body>
+<h1> Kamu marah ya kak?, gara gara aku pake bahasa sunda 
+    <audio src="bernadya.mp3.mp3"
+    controls autoplay></audio>
+</h1>
+
+<img alt="EvilicaCell" src="https://media.tenor.com/0XxZLMzjYV0AAAAi/dudu-crying-texting.gif" />
+<h1>Maafin aku ya....</h1>
+<div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+height:210px;">
+<input type="button" value=" IYA " onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+<input type="button" value=" GA " onMouseOver="f()" />
+</div>
+</body>
+</html>
